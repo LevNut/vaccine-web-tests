@@ -19,5 +19,8 @@ Fill in the vaccine reservation form and press next button
     input text  name:citizen_id   ${CITIZENID}
     Select From List by Value  name:site_name    ${SITENAME}
     Select From List by Value  name:vaccine_name    ${VACCINENAME}
+    sleep   3s
     click element  xpath://*[@id="root"]/div/div[2]/div/form/div/div/div/div[2]/div[6]
+    sleep   3s
+    close browser
 

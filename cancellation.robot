@@ -20,7 +20,10 @@ Go to my info page to cancel the reserved vaccine
     click element  xpath://*[@id="info__btn"]
     wait until element contains  id:reserve_vaccine_value   ${VACCINENAME}
     wait until element contains  id:reserve_site_value  ${SITENAME}
+    sleep   3s
     element should contain  id:reserve_vaccine_value    ${VACCINENAME}
     element should contain  id:reserve_site_value   ${SITENAME}
     click button  id:cancel__btn
+    sleep   3s
+    close browser
 

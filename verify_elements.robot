@@ -18,5 +18,7 @@ Check if there are the registration, reservation, and my-info pages
     page should contain element  id:register__link
     page should contain element  id:reserve__link
     page should contain element  id:check_info__link
+    sleep   3s
+    close browser
 
 *** Keywords ***

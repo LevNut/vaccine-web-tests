@@ -33,4 +33,6 @@ Go to my info page for verifying user identity
     click element  xpath://*[@id="nav__info__link"]
     input text  name:citizen_id   ${CITIZENID}
     click element  xpath://*[@id="info__btn"]
+    sleep   3s
+    close browser
 
